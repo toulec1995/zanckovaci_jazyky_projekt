@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xls.xls"?>
+<Uzivatel>	
+	<login>Patrix95</login>
+	<team>Bohemians</team>
+	<EST.>9.11.2016</EST.>
+	<coins>321555</coins>
+	<FIFApoints>561</FIFApoints>
+	<vyhry>73</vyhry>
+	<prohry>22</prohry>
+	<ovladani>	
+		<ovladaniUtok>	
+			<nahoru>Up</nahoru>
+			<dolu>Down</dolu>
+			<doleva>Left</doleva>
+			<doprava>Right</doprava>
+			<prepnutiHrace>Q</prepnutiHrace>
+			<sprint>W</sprint>
+			<nahravkaDobehu>E</nahravkaDobehu>
+			<centr>A</centr>
+			<nahravka>S</nahravka>
+			<strela>D</strela>
+			<technickaStrela>F</technickaStrela>		
+		</ovladaniUtok>
+		<ovladaniObrana>	
+			<nahoru>Up</nahoru>
+			<dolu>Down</dolu>
+			<doleva>Left</doleva>
+			<doprava>Right</doprava>
+			<prepnutiHrace>Q</prepnutiHrace>
+			<sprint>W</sprint>
+			<vybehBrankare>E</vybehBrankare>
+			<skluz>A</skluz>
+			<souboj>D</souboj>
+			<technickaStrela>F</technickaStrela>		
+		</ovladaniObrana>	
+	</ovladani>
+	<nastaveniObrazu>
+		<rozliseni>
+			<FullHD1920x1080 enable="true"/>
+			<UXGA1600x900 enable="false"/>
+			<HD1280x720 enable="false"/>
+		</rozliseni>
+		<zobrazeni>
+			<vOkne enable="false"/>
+			<FullScreen enable="true"/>
+		</zobrazeni>
+		<vykresleni>
+			<auto enable="false"/>
+			<nizke enable="false"/>
+			<stredni enable="false"/>
+			<vysoke enable="true"/>
+		</vykresleni>
+		<MSAA>
+			<automatic enable="true"/>
+			<vypnute enable="false"/>
+			<x2x enable="false"/>
+			<x4x enable="false"/>
+		</MSAA>
+		<frekvenceSnimku>
+			<fps30 enable="false"/>
+			<fps60 enable="true"/>
+			<bezLimitu enable="false"/>
+		</frekvenceSnimku>
+	</nastaveniObrazu>	
+	<nastaveniZvuku>
+		<hlasoviChat>
+			<zapnout enable="false"/>
+			<vypnout enable="true"/>
+		</hlasoviChat>
+		<zvukovyKanal>
+			<STEREO enable="false"/>
+			<DolbyDigital5.1 enable="false"/>
+			<DolbyDigital7.1 enable="true"/>
+		</zvukovyKanal>
+	</nastaveniZvuku>	
+</Uzivatel>
