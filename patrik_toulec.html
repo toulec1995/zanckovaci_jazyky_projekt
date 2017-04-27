@@ -1,0 +1,302 @@
+<!DOCTYPE HTML>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+			<title>Semestrální Projekt</title>
+		</head>
+
+		<body>
+			<header>
+				<h1>Dokumentace</h1>
+				<h2>Obsah</h2>
+				<ul>
+					<li>
+						<a href="#abstrakt">Abstrakt</a>
+					</li>
+					
+          <li>
+						<a href="#xsd">XSD Type</a>
+					</li>
+          <li>
+						<a href="#uzivatel">Uživatel</a>
+					</li>
+					<li>
+						<a href="#ovladani">Ovladni</a>
+					</li>
+          <li>
+						<a href="#obraz">Nastaveni obrazu</a>
+					</li>
+          <li>
+						<a href="#zvuk">Nastaveni zvuku</a>
+					</li>
+          <li>
+						<a href="#odkaz">Odkaz</a>
+					</li>
+				</ul>
+			</header>
+			<main>
+
+				<section id="abstrakt">
+					<h2>Abstrakt</h2>
+					<p>Dokumentace k semestrálnímu projektu pro předmět značkovací jazyky.</p>
+				</section>
+        
+        <section id="xsd">
+					<h2>XSD Type</h2>
+					<ul>
+						<li>string - v xml tagu s tímto typem tagu bude očekáván textový řetězec</li>
+						<li>date - v xml tagu s tímto typem bude očekáváno datum</li>
+						<li>integer - v xml tagu s tímto typem bude očekáváno celé číslo </li>
+						<li>byte - v xml tagu s tímto typem bude očekáváno jeden znak </li>
+					</ul>
+				</section>
+
+				
+		
+					
+
+				</section>
+				
+				<section id="uzivatel">
+					<h2>Uživatel</h2>
+					<table border="1">
+						<tr>
+							<th>Název</th>
+							<th>Popis</th>
+							<th>Typ</th>
+						</tr>
+						<tr>
+							<td>login</td>
+							<td>Jmeno uzivatele</td>
+							<td>xs:string</th>
+						</tr>
+						<tr>
+							<td>team</td>
+							<td>Nazev muzstva</td>
+							<td>xs:string</td>
+						</tr>
+						<tr>
+							<td>EST.</td>
+							<td>Zalozeni Uzivatele</td>
+							<td>xs:date</td>
+						</tr>
+						<tr>
+							<td>coins</td>
+							<td>Stav uctu</td>
+							<td>xs:integer</td>
+						</tr>
+						<tr>
+							<td>FIFApoints</td>
+							<td>Specialni mena</td>
+							<td>xs:integer</td>
+						</tr>
+						<tr>
+							<td>vyhry</td>
+							<td>Pocet vyher</td>
+							<td>xs:integer</td>
+						</tr>
+						<tr>
+							<td>prohry</td>
+							<td>Pocet proher</td>
+							<td>xs:integer</td>
+						</tr>
+				</table>
+				</section>
+        
+        
+        
+        
+				<section id="ovladani">
+					<h2>Ovladni</h2>
+					
+					<h3>Ovladani Utok</h3>
+					
+					<table border="1">
+						<tr>
+							<th>Akce</th>
+							<th>Klavesa</th>
+							<th>Typ</th>
+						</tr>
+						<tr>
+							<td>Pohyb nahoru</td>
+							<td>xs:byte</td>
+							<td>UP</td>
+						</tr>
+						<tr>
+							<td>Pohyb dolu</td>
+							<td>xs:byte</td>
+							<td>DOWN</td>
+						</tr>
+						<tr>
+							<td>Pohyb doleva</td>
+							<td>xs:byte</td>
+							<td>Left</td>
+						</tr>
+            <tr>
+							<td>Pohyb doprava</td>
+							<td>xs:byte</td>
+							<td>Right</td>
+						</tr>
+						<tr>
+							<td>Prepinani hracu</td>
+							<td>xs:byte</td>
+							<td>Q</td>
+						</tr>
+						<tr>
+							<td>Sprint</td>
+							<td>xs:byte</td>
+							<td>W</td>
+						</tr>
+						<tr>
+							<td>Nahravka do behu</td>
+							<td>xs:byte</td>
+							<td>E</td>
+						</tr>
+            <tr>
+							<td>Centr</td>
+							<td>xs:byte</td>
+							<td>A</td>
+						</tr>
+						<tr>
+							<td>Nahravka</td>
+							<td>xs:byte</td>
+							<td>S</td>
+						</tr>
+						<tr>
+							<td>Strela</td>
+							<td>xs:byte</td>
+							<td>D</td>
+						</tr>
+            </table>
+            
+            
+            	<h3>Ovladani Obrana</h3>
+					
+					<table border="1">
+						<tr>
+							<th>Akce</th>
+							<th>Klavesa</th>
+							<th>Typ</th>
+						</tr>
+						<tr>
+							<td>Pohyb nahoru</td>
+							<td>xs:byte</td>
+							<td>UP</td>
+						</tr>
+						<tr>
+							<td>Pohyb dolu</td>
+							<td>xs:byte</td>
+							<td>DOWN</td>
+						</tr>
+						<tr>
+							<td>Pohyb doleva</td>
+							<td>xs:byte</td>
+							<td>Left</td>
+						</tr>
+            <tr>
+							<td>Pohyb doprava</td>
+							<td>xs:byte</td>
+							<td>Right</td>
+						</tr>
+						<tr>
+							<td>Prepinani hracu</td>
+							<td>xs:byte</td>
+							<td>Q</td>
+						</tr>
+						<tr>
+							<td>Sprint</td>
+							<td>xs:byte</td>
+							<td>W</td>
+						</tr>
+						<tr>
+							<td>Vybeh brankare</td>
+							<td>xs:byte</td>
+							<td>E</td>
+						</tr>
+            <tr>
+							<td>Skluz</td>
+							<td>xs:byte</td>
+							<td>A</td>
+						</tr>
+						<tr>
+							<td>Souboj</td>
+							<td>xs:byte</td>
+							<td>S</td>
+						</tr>
+            </table>
+            
+            <section id="obraz">
+            <h2>Nastaveni Obrazu</h2>
+            
+ 					<ul>
+						<li>Rozliseni</li>
+							<ul>
+								<li>1920x1080</li>
+								<li>1600x900</li>
+								<li>1280x720</li>
+							</ul>
+						<li>Zobrazeni</li>
+							<ul>
+								<li>V okne</li>
+								<li>Full Svreen</li>
+							</ul>
+						<li>Vykresleni</li>
+							<ul>
+								<li>Auto</li>
+								<li>Nizke</li>
+								<li>Stredni</li>
+                <li>Vysoke</li>
+							</ul>
+						<li>MSAA</li>
+							<ul>
+								<li>Automatic</li>
+								<li>Vypnute</li>
+								<li>2x</li>
+								<li>4x</li>
+							</ul>
+              <li>Frekvence Snimku</li>
+							<ul>
+								<li>30 fps</li>
+								<li>60 fps</li>
+								<li>Bez limitu</li>
+							</ul>
+					</ul>
+          </section>
+          
+          <section id="zvuk">
+            <h2>Nastaveni Zvuku</h2>
+            
+ 					<ul>
+						<li>Hlasovy Chat</li>
+							<ul>
+								<li>Zapnut</li>
+								<li>Vypnut</li>
+							</ul>
+						<li>Zvukovy Kanal</li>
+							<ul>
+								<li>Stereo</li>
+								<li>5.1</li>
+                <li>7.1</li>
+							</ul>
+              </ul>
+              </section>
+					
+				
+				
+				<section id="odkaz">
+				<h2>Odkaz</h2>
+				<ul>
+					<li>
+						<a href=https://github.com/toulec1995/zanckovaci_jazyky_projekt/>GITHUB</a>
+					</li>
+				</ul>
+				</section>
+				
+			</main>
+		<h2>Autor</h2>
+			<footer>
+        &copy; TOULEC Patrik 
+			</footer>
+		</body>
+
+	</html>
